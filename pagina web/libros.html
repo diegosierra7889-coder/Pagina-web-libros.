@@ -1,0 +1,63 @@
+        <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" style="font-size:1.5rem; font-weight:bold; color:#ff6f61; text-decoration:underline; letter-spacing:1px;">Inicio</a>
+        </nav>
+    </header>
+    <main>
+    <h1 style="text-align:center; margin-bottom:2rem;">Libros de Finanzas y Crecimiento Personal</h1>
+        <section class="libros-list">
+            <!-- Aquí puedes agregar la información de los libros -->
+            <div class="libros-card">
+                                <img src="imagen/dinero.png" alt="EL ARTE DE HACER DINERO">
+                                <div>
+                                    <h3>El arte de hacer dinero</h3>
+                                    <p>Autor: Mario Borghino</p>
+                                    <p>"El arte de hacer dinero" es un libro de Mario Borghino que ofrece estrategias y consejos prácticos para mejorar la gestión financiera, aumentar la riqueza personal y alcanzar la libertad económica.</p>
+                                </div>
+                                <iframe src="El arte de hacer dinero_copy.pdf" width="100%" height="500px" style="border:1px solid #ccc; border-radius:8px;"></iframe>
+            </div>
+            <div class="libros-card">
+                                <img src="imagen/deja.png" alt="DEJA DE SER TÚ">
+                                <div>
+                                    <h3>Deja de ser tú</h3>
+                                    <p>Autor: Joe Dispenza</p>
+                                    <p>"Deja de ser tú" de Joe Dispenza explica cómo nuestros pensamientos y creencias moldean nuestra realidad y cómo podemos transformarla.</p>
+                                </div>
+                                <iframe src="deja.pdf" width="100%" height="500px" style="border:1px solid #ccc; border-radius:8px;"></iframe>
+            </div>
+            <div class="libros-card">
+                                <img src="imagen/nose.png" alt="THE UNCHAINED MAN">
+                                <div>
+                                    <h3>The Unchained Man</h3>
+                                    <p>Autor: Caleb Jones</p>
+                                    <p>"The Unchained Man: The Alpha Male 2.0" enseña a los hombres cómo alcanzar mayor libertad personal y financiera, mejorar sus relaciones y vivir una vida más feliz y autónoma.</p>
+                                </div>
+                                <iframe src="unchained.pdf" width="100%" height="500px" style="border:1px solid #ccc; border-radius:8px;"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+    <p style="text-align:center; font-size:1.2rem; font-weight:bold; color:#ff6f61; margin:2rem 0 1rem 0; letter-spacing:1px;">&copy; 2025 Libros de Finanzas y Crecimiento Personal. Todos los derechos reservados.</p>
+        <section style="margin-top:2rem; padding:2rem; background:#f9f9f9; border-radius:10px; max-width:600px; margin-left:auto; margin-right:auto;">
+            <h2>Sugerencias de Libros</h2>
+            <form action="https://formspree.io/f/xkgvdejn" method="POST">
+                <label for="sugerencia">¿Qué libro te gustaría ver en la página?</label><br>
+                <input type="text" id="sugerencia" name="sugerencia" placeholder="Escribe el nombre del libro" style="width:100%; padding:0.5rem; margin-top:0.5rem; border-radius:5px; border:1px solid #ccc;"><br>
+                <label for="autor">Autor (opcional):</label><br>
+                <input type="text" id="autor" name="autor" placeholder="Nombre del autor" style="width:100%; padding:0.5rem; margin-top:0.5rem; border-radius:5px; border:1px solid #ccc;"><br>
+                <button type="submit" style="margin-top:1rem; padding:0.5rem 1.5rem; background:#ff6f61; color:white; border:none; border-radius:5px; cursor:pointer;">Enviar sugerencia</button>
+                <input type="hidden" name="_replyto" value="diegosierra7889@gmail.com">
+            </form>
+        </section>
+    </footer>
+</body>
+</html>
